@@ -1,0 +1,34 @@
+/* element selector me */
+h1 {
+    font-size: small;
+    text-align: center;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+/* id selector me # */
+#article1 {
+    color: bisque;
+}
+
+/* Note id same nhi ho skti, class ho skti h */
+
+/* class selector me. */
+
+.para {
+    background-color: greenyellow !important;
+}
+
+/* p,article dono ke grp pr */
+p,
+article {
+    width: 500px;
+}
+
+
+/* p ki para class pr only work */
+p.para {
+    text-align: center;
+}

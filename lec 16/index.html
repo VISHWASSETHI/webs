@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            padding: 100px;
+            display: inline;
+        }
+
+        /* inline lement pe custom ht, wdth not work */
+        /* inline prr custom margin not work, padding work but agr display: block krre to all work*/
+        span {
+            border: 1px solid green;
+            width: 700px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            /* display: block; */
+            display: inline-block;
+        }
+
+        /* inline-block means work as inline but also custom works */
+
+        /* block elements */
+        /* div {
+            border: 1px solid red;
+            width: 300px;
+            height: 100px;
+            margin: 25px;
+            padding: 5px;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- <div>
+        Welcome to CodeHelp</Code>
+    </div>
+
+    <div>
+        Welcome to CodeHelp 2.0
+    </div> -->
+
+    <div class="box">
+        Welcome to Code
+    </div>
+
+    <span>
+        This is Vishwas
+    </span>
+
+    <span>
+        This is Vishwas 2.0
+    </span>
+
+</body>
+
+</html>
